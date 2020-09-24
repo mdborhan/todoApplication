@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
@@ -117,9 +120,11 @@
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/binary-cats/laravel-sku" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gfUmDl96SwCM9rYG9ShOqoK26s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -128,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projectBook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inventory" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -161,6 +166,18 @@
       <updated>1598505296182</updated>
       <workItem from="1598505298236" duration="1841000" />
       <workItem from="1598507179905" duration="19517000" />
+      <workItem from="1599025631027" duration="1000000" />
+      <workItem from="1599097317076" duration="33000" />
+      <workItem from="1599111184166" duration="86000" />
+      <workItem from="1599111459869" duration="289000" />
+      <workItem from="1600226145394" duration="2444000" />
+      <workItem from="1600279600176" duration="3166000" />
+      <workItem from="1600321718707" duration="1399000" />
+      <workItem from="1600355930666" duration="126000" />
+      <workItem from="1600837595502" duration="11213000" />
+      <workItem from="1600853224040" duration="3526000" />
+      <workItem from="1600879080719" duration="10135000" />
+      <workItem from="1600917415589" duration="1552000" />
     </task>
     <servers />
   </component>
@@ -168,17 +185,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="189" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598516278863">
+    <state x="530" y="189" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600839813337">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="530" y="189" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1598516278863" />
-    <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1598527091971">
+    <state x="530" y="189" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600839813337" />
+    <state x="580" y="189" key="FileChooserDialogImpl" timestamp="1600880311410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1598527091971" />
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1598507181061">
+    <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600880311410" />
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1600919493983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1598507181061" />
+    <state x="508" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1600919493983" />
   </component>
 </project>

@@ -14,16 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login.index');
+    return view('home.index');
 });
-Route::group(['middleware'=>'auth'],function (){
-    Route::get('/task', 'TaskController@index')->name('task');
-    Route::post('/add/task', 'TaskController@store')->name('task.store');
-    Route::get('/edit/task/{id}', 'TaskController@edit')->name('task.edit');
-    Route::post('/update/task', 'TaskController@update')->name('task.update');
-    Route::post('/delete/task', 'TaskController@destroy')->name('task.delete');
 
-});
+
+    Route::get('/dashboard', 'TaskController@index')->name('dash');
+    Route::get('/create/category', 'TaskController@getCategory')->name('create.category');
+    Route::post('/add/category', 'TaskController@addCategory')->name('add.category');
+    Route::post('/delete/category', 'TaskController@deleteCategory')->name('delete.category');
+
+    Route::get('/create/products', 'TaskController@getProducts')->name('create.products');
+    Route::post('/add/products', 'TaskController@addProducts')->name('add.product');
+
+    Route::get('/create/customer', 'TaskController@getCustomer')->name('create.customer');
+    Route::post('/add/customer', 'TaskController@addCustomer')->name('add.customer');
+
+    Route::get('/create/proposal/page', 'TaskController@getProposal')->name('create.proposal');
+    Route::get('/create/proposal', 'TaskController@postProposal');
+    Route::post('/store/proposal', 'TaskController@store')->name('store');
+
+
+
+
 
 Auth::routes();
 
